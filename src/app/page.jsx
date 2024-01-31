@@ -24,7 +24,6 @@ export default function Home() {
           </a>
         </p>
       </div>
-      <h3 className={`text-lg text-yellow-300 font-bold ${montserrat.className}`}>Producto</h3>
 
 
       <header className="absolute inset-x-0 top-0 z-50">
