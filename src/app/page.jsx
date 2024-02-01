@@ -411,13 +411,13 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <footer class="bg-black" aria-labelledby="footer-heading">
+      <footer class="bg-black text-center" aria-labelledby="footer-heading">
         <h2 id="footer-heading" class="sr-only">
           Footer
         </h2>
 
         <div class="px-4 py-12 mx-auto bg-black max-w-7xl sm:px-6 lg:px-16">
-          <div class="flex flex-wrap items-baseline lg:justify-center">
+          <div class="flex flex-wrap items-baseline justify-center">
             <span class="mt-2 text-gray-200">
               Made with 👾 2024
               <a
