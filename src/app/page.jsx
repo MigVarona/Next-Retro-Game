@@ -422,7 +422,7 @@ export default function Home() {
               Made with 👾 2024
               <a
                 href="https://github.com/MigVarona"
-                class="mx-2  hover:text-yellow-300"
+                class="mx-2 border-gray-200 border-b  hover:text-yellow-300"
                 rel="noopener noreferrer"
               >
                 @migvarona

@@ -3,19 +3,6 @@
 @tailwind utilities;
 
 
-
-
-
-body {
-
-  background-color: black; /* No es necesario !important si no hay conflictos de especificidad */
-}
-
-
-
-
-
-
 body {
   background-color: black !important;
 }
