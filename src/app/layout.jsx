@@ -1,14 +1,16 @@
 import Head from "next/head";
 import { Inter, Poor_Story } from "next/font/google";
+import Link from "next/link";
 
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"], 
-variable: "--inter"});
+const inter = Inter({ subsets: ["latin"], variable: "--inter" });
 
-const poor_Story = Poor_Story({ subsets: ["latin"], 
-variable: "--poor_Story", weight: "400"});
-
+const poor_Story = Poor_Story({
+  subsets: ["latin"],
+  variable: "--poor_Story",
+  weight: "400",
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -18,9 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-     
-      </Head>
+      <Head></Head>
 
       <body className={[inter.variable, poor_Story.variable]}>{children}</body>
     </html>

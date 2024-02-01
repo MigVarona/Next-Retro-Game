@@ -412,20 +412,25 @@ export default function Home() {
         </div>
       </section>
       <footer class="bg-black" aria-labelledby="footer-heading">
-  <h2 id="footer-heading" class="sr-only">Footer</h2>
+        <h2 id="footer-heading" class="sr-only">
+          Footer
+        </h2>
 
-  <div class="px-4 py-12 mx-auto bg-black max-w-7xl sm:px-6 lg:px-16">
-    <div class="flex flex-wrap items-baseline lg:justify-center">
-      <span class="mt-2 text-gray-200">
-        Made with 👾 2024
-        <a href="https://github.com/MigVarona" class="mx-2  hover:text-yellow-300" rel="noopener noreferrer">@migvarona</a>
-      </span>
-    </div>
-  </div>
-</footer>
-
-
-     
+        <div class="px-4 py-12 mx-auto bg-black max-w-7xl sm:px-6 lg:px-16">
+          <div class="flex flex-wrap items-baseline lg:justify-center">
+            <span class="mt-2 text-gray-200">
+              Made with 👾 2024
+              <a
+                href="https://github.com/MigVarona"
+                class="mx-2  hover:text-yellow-300"
+                rel="noopener noreferrer"
+              >
+                @migvarona
+              </a>
+            </span>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
